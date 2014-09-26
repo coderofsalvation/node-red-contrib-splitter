@@ -17,7 +17,7 @@ More info [here](http://www.enterpriseintegrationpatterns.com/Sequencer.html)
 
 # Why a node?
 
-Well..it looks more peacefull then this:
+Well..would you prefer this?
 
 <img alt="" src="nodeloop.jpg"/>
 
