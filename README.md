@@ -14,10 +14,11 @@ More info [here](http://www.enterpriseintegrationpatterns.com/Sequencer.html)
 
 # Why a node?
 
-Well..would you prefer this?
+Well..image using 10 loops like this:
 
 <img alt="" src="nodeloop.jpg"/>
 
+Got the point?
 With visual progarmming the [Deutsch Limit](http://en.wikipedia.org/wiki/Deutsch_limit) seem to lure around every corner.
 
 # Installation

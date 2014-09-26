@@ -43,9 +43,11 @@ module.exports = function(RED) {
           var prop = propertyParts.reduce(function (obj, i) {
                 return obj[i]
           }, msg);
-          for( var i in prop ){
-            msg.payload = prop[i];
-            node.send( msg  );
+          if( prop != undefined && prop.length ){
+            for( var i in prop ){
+              msg.payload = prop[i];
+              node.send( msg  );
+            }
           }
         });
     }
