@@ -5,7 +5,7 @@ This node iterates over an array.
 
 # The idea
 
-In enterprise integration patterns there are many name for this: a splitter, sequencer, iterator or chunkifier.
+In enterprise integration patterns there are many names for this: a splitter, sequencer, iterator or chunkifier.
 
 <img alt="" src="Sequencer.gif"/>
 
@@ -14,12 +14,12 @@ More info [here](http://www.enterpriseintegrationpatterns.com/Sequencer.html)
 
 # Why a node?
 
-Well..image using 10 loops like this:
+Well..look at this image, and then imagine using 10 loops in a similar way:
 
 <img alt="" src="nodeloop.jpg"/>
 
 Got the point?
-With visual progarmming the [Deutsch Limit](http://en.wikipedia.org/wiki/Deutsch_limit) seem to lure around every corner.
+With visual progarmming the [Deutsch Limit](http://en.wikipedia.org/wiki/Deutsch_limit) seems to lure around every corner. Better to make a node for that.
 
 # Installation
 
