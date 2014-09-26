@@ -2,9 +2,6 @@ node-red-node-splitter
 ====================
 
 This node iterates over an array.
-
-This is a similar node to the 'function'-node, which allows custom javascript to be executed (in a sandbox).
-This node will allow the enduser to use beautifull compact (sandboxed) splitter.
 
 # The idea
 
