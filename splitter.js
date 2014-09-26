@@ -16,22 +16,6 @@
 
 module.exports = function(RED) {
     "use strict";
-    var operators = {
-        'eq': function(a, b) { return a == b; },
-        'neq': function(a, b) { return a != b; },
-        'lt': function(a, b) { return a < b; },
-        'lte': function(a, b) { return a <= b; },
-        'gt': function(a, b) { return a > b; },
-        'gte': function(a, b) { return a >= b; },
-        'btwn': function(a, b, c) { return a >= b && a <= c; },
-        'cont': function(a, b) { return (a + "").indexOf(b) != -1; },
-        'regex': function(a, b) { return (a + "").match(new RegExp(b)); },
-        'true': function(a) { return a === true; },
-        'false': function(a) { return a === false; },
-        'null': function(a) { return typeof a == "undefined"; },
-        'nnull': function(a) { return typeof a != "undefined"; },
-        'else': function(a) { return a === true; }
-    };
 
     function SplitterNode(n) {
         RED.nodes.createNode(this, n);
@@ -43,6 +27,7 @@ module.exports = function(RED) {
           var prop = propertyParts.reduce(function (obj, i) {
                 return obj[i]
           }, msg);
+          msg.payload_unsplit = msg.payload;
           if( prop != undefined && prop.length ){
             for( var i in prop ){
               msg.payload = prop[i];
