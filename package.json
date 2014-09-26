@@ -1,0 +1,24 @@
+{
+    "name"          : "node-red-contrib-splitter",
+    "version"       : "0.0.1",
+    "description"   : "A Node-RED node to split arrays into seperate messages, making it easy to loop over.",
+    "dependencies"  : {
+        "splitter-script"   : ""
+    },
+    "repository" : {
+        "type":"git",
+        "url":"https://github.com/coderofsalvation/node-red-contrib-splitter"
+    },
+    "license": "BSD",
+    "keywords": [ "node-red", "splitter" ],
+    "node-red"      : {
+        "nodes"     : {
+            "splitter": "splitter.js"
+        }
+    },
+    "author": {
+        "name": "Leon van Kammen",
+        "email": "info@leon.vankammen.eu",
+        "url": "http://github.com/coderofsalvation"
+    }
+}

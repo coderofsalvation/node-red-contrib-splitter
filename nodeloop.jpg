@@ -1,0 +1,13 @@
+--2014-09-26 15:58:33--  https://www.ibm.com/developerworks/community/blogs/hickmat/resource/BLOGS_UPLOADED_IMAGES/NodeRED-Loop2.jpg
+Resolving www.ibm.com (www.ibm.com)... 95.101.193.242
+Connecting to www.ibm.com (www.ibm.com)|95.101.193.242|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 138879 (136K) [image/jpeg]
+Saving to: `NodeRED-Loop2.jpg'
+
+     0K .......... .......... .......... .......... .......... 36% 1.24M 0s
+    50K .......... .......... .......... .......... .......... 73% 1.35M 0s
+   100K .......... .......... .......... .....                100% 1.24M=0.1s
+
+2014-09-26 15:58:34 (1.28 MB/s) - `NodeRED-Loop2.jpg' saved [138879/138879]
+
