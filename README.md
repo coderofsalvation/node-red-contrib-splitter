@@ -33,4 +33,4 @@ Leon van Kammen, http://coderofsalvation.github.io / http://github.com/coderofsa
 
 # License 
 
-GPL
+BSD
