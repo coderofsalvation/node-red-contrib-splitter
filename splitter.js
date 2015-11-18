@@ -44,6 +44,7 @@ module.exports = function(RED) {
             if( prop != undefined && prop.length ){
               for( var i in prop ){
                 var m = RED.util.cloneMessage(msg);
+                i = parseInt(i, 10);
                 m.payload = prop[i];
                 m.$index = i;
                 m.$last = i === prop.length - 1;
